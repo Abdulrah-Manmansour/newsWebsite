@@ -113,13 +113,13 @@ img{
  }
  p{
      margin-bottom: 10px;
-     color: #6bbbe0;
+     color: #2ca7e0;
  }
  .item p:nth-child(2){
-     color: #6bbbe0;
+     color: #1f9ed8;
  }
  .item .time{
-     color: rgb(184, 158, 158);
+     color: rgb(146, 146, 146);
  }
  @media(max-width:991px){
     .item{

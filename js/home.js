@@ -35,6 +35,8 @@ function showData(catagory){
         rs+=`<div class="item" >
         <img src="${data[i].urlToImage}" id="img-${i}">
         <h3>${data[i].title}</h3>
+        <p>${data[i].description}</p>
+        <p class="time">${data[i].publishedAt}</p>
         </div>`
     }
 document.getElementById("row").innerHTML=rs;
